@@ -6,7 +6,6 @@ Imports System.Net
 Imports System.Xml
 Imports System.Threading
 Imports System.Data
-Imports System.Data.SqlServerCe
 
 Public Class SAVCARS
 
@@ -506,7 +505,7 @@ Public Class SAVCARS
             FSUIPCConnection.Process(New String() {"default"})
             ACARSstart()
 
-            userInput = FSUIPCConnection.UserInputServices
+            userInput = FSUIPCConnection.UserInputServices 'move these
             PayloadServices = FSUIPCConnection.PayloadServices
 
             Fuel()

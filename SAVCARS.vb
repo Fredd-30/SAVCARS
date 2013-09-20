@@ -62,7 +62,7 @@ Public Class SAVCARS
     Dim SavedFlights As String = My.Computer.FileSystem.SpecialDirectories.CurrentUserApplicationData & "\Saved Flights"
     Dim FlightHistory As String = My.Computer.FileSystem.SpecialDirectories.CurrentUserApplicationData & "\Saved Flights\Flight History"
     'Public Servers As New List(Of String)
-    Dim Key As String = "fe96s24stakEzegEcrusA6ePH" & DateTime.Now.AddDays(13).Day & "utranasegesp" & DateTime.Now.AddMonths(5).Month & "ustas54ava9red" & DateTime.Now.AddYears(7).Year & "r3ram48rUkaFE"
+    Dim Key As String = "removed"
     Const PublicKey As String = "removed"
     Const FilePass As String = "removed"
     Const LoginPass As String = "removed"
